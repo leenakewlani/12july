@@ -1,0 +1,11 @@
+#! /bin/bash
+
+
+echo "enter your name:"
+read name
+echo "entered name : $name"
+read -p 'username : '  user_var
+echo "username : $user_var"
+read -sp 'password : '  pass_var
+echo
+echo "password : $pass_var"
